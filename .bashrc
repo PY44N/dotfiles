@@ -26,6 +26,7 @@ unset rc
 . "$HOME/.cargo/env"
 
 alias ls="ls --group-directories-first --color=always"
+alias open="xdg-open"
 
 export ELECTRON_OZONE_PLATFORM_HINT=wayland
 
