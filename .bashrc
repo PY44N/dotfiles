@@ -27,6 +27,7 @@ unset rc
 
 alias ls="ls --group-directories-first --color=always"
 alias open="xdg-open"
+alias update-sys="sudo dnf update && flatpak update"
 
 export ELECTRON_OZONE_PLATFORM_HINT=wayland
 
@@ -52,3 +53,5 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+
+eval "$(thefuck --alias)"
