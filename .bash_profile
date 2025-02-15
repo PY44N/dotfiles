@@ -8,3 +8,4 @@ fi
 # User specific environment and startup programs
 . "$HOME/.cargo/env"
 
+export PATH="$HOME/programs/flutter/bin:$PATH"
