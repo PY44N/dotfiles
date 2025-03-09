@@ -54,3 +54,4 @@ unset __conda_setup
 
 # ZLS
 export PATH="$PATH:/home/ryan/programs/zls"
+export PATH="$PATH:/home/ryan/programs/flutter/bin"
