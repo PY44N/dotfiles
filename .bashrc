@@ -51,3 +51,8 @@ unset __conda_setup
 # ZLS
 export PATH="$PATH:/home/ryan/programs/zls"
 export PATH="$PATH:/home/ryan/programs/flutter/bin"
+
+# Go
+export PATH="$PATH:/home/ryan/programs/go/bin"
+
+export KUBECONFIG=/etc/rancher/k3s/k3s.yaml
