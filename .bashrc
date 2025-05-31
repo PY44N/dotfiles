@@ -27,6 +27,7 @@ unset rc
 
 alias ls="ls --group-directories-first --color=always"
 alias open="xdg-open"
+alias neofetch="fastfetch"
 
 export ELECTRON_OZONE_PLATFORM_HINT=wayland
 
@@ -56,3 +57,4 @@ export PATH="$PATH:/home/ryan/programs/flutter/bin"
 export PATH="$PATH:/home/ryan/programs/go/bin"
 
 export KUBECONFIG=/etc/rancher/k3s/k3s.yaml
+export GOPATH=$HOME/go
