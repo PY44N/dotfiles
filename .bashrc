@@ -65,3 +65,7 @@ export GOPATH=$HOME/go
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+alias claude="/home/ryan/.claude/local/claude"
+
+eval "$(zoxide init bash --cmd cd)"
