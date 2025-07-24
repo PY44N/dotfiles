@@ -25,7 +25,7 @@ fi
 unset rc
 . "$HOME/.cargo/env"
 
-alias ls="ls --group-directories-first --color=always"
+alias ls="lsd --group-directories-first --color=always"
 alias open="xdg-open"
 # alias neofetch="fastfetch"
 
@@ -70,5 +70,3 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
 alias claude="/home/ryan/.claude/local/claude"
-
-eval "$(zoxide init bash --cmd cd)"
