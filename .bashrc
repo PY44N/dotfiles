@@ -56,7 +56,6 @@ export PATH="$PATH:/home/ryan/programs/zls"
 export PATH="$PATH:/home/ryan/programs/flutter/bin"
 
 # Go
-export PATH="$PATH:/home/ryan/programs/go/bin"
 export PATH="$PATH:/home/ryan/go/bin"
 export PATH="$PATH:$HOME/programs/bluetuith/bin"
 export PATH="$PATH:$HOME/go/bin"
