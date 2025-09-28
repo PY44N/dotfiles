@@ -58,6 +58,7 @@ export PATH="$PATH:/home/ryan/programs/flutter/bin"
 # Go
 export PATH="$PATH:/home/ryan/go/bin"
 export PATH="$PATH:$HOME/programs/bluetuith/bin"
+export PATH="$PATH:$HOME/programs/arduino-cli/bin"
 export PATH="$PATH:$HOME/go/bin"
 export PATH="$PATH:$HOME/.config/emacs/bin"
 
