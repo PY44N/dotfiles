@@ -11,3 +11,4 @@ size = 14
 import = [
 	"~/.config/alacritty/catppuccin-mocha.toml"
 ]
+
