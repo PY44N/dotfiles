@@ -69,7 +69,6 @@ export GOPATH=$HOME/go
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
-alias claude="/home/ryan/.claude/local/claude"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH=~/.npm-global/bin:$PATH
 export PATH="$PATH:/usr/local/MATLAB/R2025a/bin"
