@@ -12,3 +12,7 @@ import = [
 	"~/.config/alacritty/catppuccin-mocha.toml"
 ]
 
+[keyboard]
+bindings = [
+  { key = "Return", mods = "Control|Shift", action = "SpawnNewInstance" },
+]

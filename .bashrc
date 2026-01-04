@@ -23,7 +23,7 @@ if [ -d ~/.bashrc.d ]; then
   done
 fi
 unset rc
-. "$HOME/.cargo/env"
+# . "$HOME/.cargo/env"
 
 alias ls="lsd --group-directories-first --color=always"
 alias open="xdg-open"
@@ -72,3 +72,5 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH=~/.npm-global/bin:$PATH
 export PATH="$PATH:/usr/local/MATLAB/R2025a/bin"
+
+export EDITOR="/usr/bin/micro"
