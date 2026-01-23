@@ -73,4 +73,6 @@ export PATH="$HOME/.local/bin:$PATH"
 export PATH=~/.npm-global/bin:$PATH
 export PATH="$PATH:/usr/local/MATLAB/R2025a/bin"
 
+export PATH="$PATH:/home/ryan/bin"
+
 export EDITOR="/usr/bin/micro"
