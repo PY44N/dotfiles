@@ -23,7 +23,7 @@ if [ -d ~/.bashrc.d ]; then
   done
 fi
 unset rc
-# . "$HOME/.cargo/env"
+. "$HOME/.cargo/env"
 
 alias ls="lsd --group-directories-first --color=always"
 alias open="xdg-open"
@@ -76,3 +76,8 @@ export PATH="$PATH:/usr/local/MATLAB/R2025a/bin"
 export PATH="$PATH:/home/ryan/bin"
 
 export EDITOR="/usr/bin/micro"
+
+. "$HOME/.atuin/bin/env"
+
+[[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
+eval "$(atuin init bash)"
