@@ -73,6 +73,13 @@ export PATH="$HOME/.local/bin:$PATH"
 export PATH=~/.npm-global/bin:$PATH
 export PATH="$PATH:/usr/local/MATLAB/R2025a/bin"
 
+ANDROID_SDK_PATH="$HOME/.local/share/android-sdk"
+
+export ANDROID_HOME="$ANDROID_SDK_PATH"
+export PATH="$PATH:$ANDROID_SDK_PATH/cmdline-tools/latest/bin"
+export PATH="$PATH:$ANDROID_SDK_PATH/platform-tools"
+export PATH="$PATH:$ANDROID_SDK_PATH/emulator"
+
 export PATH="$PATH:/home/ryan/bin"
 
 export EDITOR="/usr/bin/micro"
